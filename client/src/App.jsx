@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import HomeScreen from './components/HomeScreen';
 import GameRoom from './components/GameRoom';
 
-const socket = io('http://localhost:4000');
+const socket = io('https://rock-paper-scissors-ksdl.onrender.com');
 
 function App() {
   const [screen, setScreen] = useState('home');
